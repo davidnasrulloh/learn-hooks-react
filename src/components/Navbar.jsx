@@ -9,16 +9,16 @@ const Navbar = () => {
             </div>
             <div className="flex gap-12">
                 <div className="font-medium text-start">
-                    <div className="font-bold">Must Now Hooks</div>
-                    <div className="flex flex-col gap4">
-                        <Link to="/use-state">UseState</Link>
-                        <Link>UseEffect</Link>
-                        <Link>UseContext</Link>
+                    <div className="font-bold mb-4">Must Now Hooks</div>
+                    <div className="flex flex-col gap-2">
+                        <Link to="/use-state" className="hover:text-blue-400">UseState</Link>
+                        <Link to="/use-effect" className="hover:text-blue-400">UseEffect</Link>
+                        <Link to="/use-context" className="hover:text-blue-400">UseContext</Link>
                     </div>
                 </div>
                 <div className="font-medium text-start">
-                    <div className="font-bold">Lesser Used Hooks</div>
-                    <div className="flex flex-col gap4">
+                    <div className="font-bold mb-4">Lesser Used Hooks</div>
+                    <div className="flex flex-col gap-2">
                         <Link>UseRef</Link>
                         <Link>UseMemo</Link>
                         <Link>UseCallback</Link>
