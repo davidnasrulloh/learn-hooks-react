@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="font-medium text-start">
                     <div className="font-bold mb-4">Lesser Used Hooks</div>
                     <div className="flex flex-col gap-2">
-                        <Link>UseRef</Link>
+                        <Link to="/use-ref" className="hover:text-blue-400">UseRef</Link>
                         <Link>UseMemo</Link>
                         <Link>UseCallback</Link>
                         <Link>UseReducer</Link>

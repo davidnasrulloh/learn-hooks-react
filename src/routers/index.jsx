@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import UseStateLearning from "../pages/hooksdasar/Usestate";
 import UseEffectLearning from "../pages/hooksdasar/UseEffect";
 import UseContextLearning from "../pages/hooksdasar/usecontext/UseContext";
+import UseRefLearning from "../pages/hooksdasar/UseRef";
 
 const SetupRouters = () => {
     return (
@@ -13,6 +14,7 @@ const SetupRouters = () => {
             <Route path="/use-state" element={<UseStateLearning />} />
             <Route path="/use-effect" element={<UseEffectLearning />} />
             <Route path="/use-context" element={<UseContextLearning />} />
+            <Route path="/use-ref" element={<UseRefLearning />} />
         </Routes>
     );
 }
