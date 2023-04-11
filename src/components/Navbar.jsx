@@ -20,7 +20,7 @@ const Navbar = () => {
                     <div className="font-bold mb-4">Lesser Used Hooks</div>
                     <div className="flex flex-col gap-2">
                         <Link to="/use-ref" className="hover:text-blue-400">UseRef</Link>
-                        <Link>UseMemo</Link>
+                        <Link to="/use-memo" className="hover:text-blue-400">UseMemo</Link>
                         <Link>UseCallback</Link>
                         <Link>UseReducer</Link>
                         <Link>UseTransition</Link>
