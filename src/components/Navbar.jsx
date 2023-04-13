@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className="flex flex-col gap-2">
                         <Link to="/use-ref" className="hover:text-blue-400">UseRef</Link>
                         <Link to="/use-memo" className="hover:text-blue-400">UseMemo</Link>
-                        <Link>UseCallback</Link>
+                        <Link to="/use-callback" className="hover:text-blue-400">UseCallback</Link>
                         <Link>UseReducer</Link>
                         <Link>UseTransition</Link>
                         <Link>UseDefferedValue</Link>
