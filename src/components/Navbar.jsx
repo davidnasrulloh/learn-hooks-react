@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Link to="/use-ref" className="hover:text-blue-400">UseRef</Link>
                         <Link to="/use-memo" className="hover:text-blue-400">UseMemo</Link>
                         <Link to="/use-callback" className="hover:text-blue-400">UseCallback</Link>
-                        <Link>UseReducer</Link>
+                        <Link to="/use-reducer" className="hover:text-blue-400">UseReducer</Link>
                         <Link>UseTransition</Link>
                         <Link>UseDefferedValue</Link>
                     </div>
