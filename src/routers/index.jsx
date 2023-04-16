@@ -8,6 +8,7 @@ import UseRefLearning from "../pages/hooksdasar/UseRef";
 import UseMemoLearnings from "../pages/hooksdasar/UseMemo";
 import UseCallBackLearning from "../pages/hooksdasar/usecallback/UseCallback";
 import UseReducerLearning from "../pages/hooksdasar/UseReducer";
+import UseTransitionLearning from "../pages/hooksdasar/UseTransition";
 
 const SetupRouters = () => {
     return (
@@ -21,6 +22,7 @@ const SetupRouters = () => {
             <Route path="/use-memo" element={<UseMemoLearnings />} />
             <Route path="/use-callback" element={<UseCallBackLearning />} />
             <Route path="/use-reducer" element={<UseReducerLearning />} />
+            <Route path="/use-transition" element={<UseTransitionLearning />} />
         </Routes>
     );
 }
