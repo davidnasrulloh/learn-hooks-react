@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import Header from "../../components/Header";
 
 const UseRefLearning = () => {
 
@@ -19,6 +20,7 @@ const UseRefLearning = () => {
 
     return (
         <>
+            <Header title="Belajar Use Ref" />
             <div>
                 <form className="flex items-center my-4">
                     <label for="simple-search" class="sr-only">Search</label>

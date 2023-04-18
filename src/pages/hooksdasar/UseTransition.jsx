@@ -1,4 +1,5 @@
 import React, { useState, useTransition } from "react";
+import Header from "../../components/Header";
 
 const UseTransitionLearning = () => {
 
@@ -21,9 +22,7 @@ const UseTransitionLearning = () => {
 
     return (
         <>
-            <div className="text-2xl font-bold text-green-700">
-                Use Transition
-            </div>
+            <Header title="Belajar Use Transition" />
             <form className="flex items-center my-4">
                 <div className="relative w-full">
                     <input type="text" value={input} onChange={handleChange} id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Tulis disini" />

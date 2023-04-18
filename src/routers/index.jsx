@@ -10,6 +10,7 @@ import UseCallBackLearning from "../pages/hooksdasar/usecallback/UseCallback";
 import UseReducerLearning from "../pages/hooksdasar/UseReducer";
 import UseTransitionLearning from "../pages/hooksdasar/UseTransition";
 import UseDefferedValueLearning from "../pages/hooksdasar/UseDefferedValue";
+import UseLayoutEffect from "../pages/hooksdasar/UseLayoutEffect";
 
 const SetupRouters = () => {
     return (
@@ -25,6 +26,7 @@ const SetupRouters = () => {
             <Route path="/use-reducer" element={<UseReducerLearning />} />
             <Route path="/use-transition" element={<UseTransitionLearning />} />
             <Route path="/use-deffered" element={<UseDefferedValueLearning />} />
+            <Route path="/use-layouteffect" element={<UseLayoutEffect />} />
         </Routes>
     );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Header from "../../components/Header";
 
 // function countInitial() {
 //     console.log("run function")
@@ -51,6 +52,7 @@ const UseStateLearning = () => {
 
     return (
         <div>
+            <Header title="Belajar Use State" />
             <div className="font-semibold text-5xl my-12 flex gap-12 items-center justify-center">
                 <button onClick={decrementCount} className="py-2 px-12 bg-green-600 text-white rounded-xl border-4 border-green-800 border-opacity-50 shadow-xl hover:translate-y-2 hover:transition hover:bg-green-200 hover:text-green-700" >-</button>
                 <span className="w-1/3">{count} {theme}</span>

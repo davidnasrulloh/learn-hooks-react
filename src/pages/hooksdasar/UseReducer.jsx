@@ -1,4 +1,5 @@
 import React, { useReducer, useState } from "react";
+import Header from "../../components/Header";
 
 // Reducer = Function yang buanyak di dalam satu function
 
@@ -82,12 +83,13 @@ const UseReducerLearning = () => {
 
     return (
         <div>
+            <Header title="Belajar Use Reducer" />
             <div className="text-3xl flex gap-12 justify-center my-8">
                 <button onClick={decrement} className="py-2 px-12 bg-green-600 text-white rounded-xl border-4 border-green-800 border-opacity-50 shadow-xl hover:translate-y-2 hover:transition hover:bg-green-200 hover:text-green-700" >-</button>
                 <span className="flex items-center">{state.count}</span>
                 <button onClick={increment} className="py-2 px-12 bg-green-600 text-white rounded-xl border-4 border-green-800 border-opacity-50 shadow-xl hover:translate-y-2 hover:transition hover:bg-green-200 hover:text-green-700">+</button>
             </div>
-            <div className="py-8">
+            <div className="pb-8">
                 <form onSubmit={handleSubmit} className="flex items-center my-4">
                     <div className="relative w-full">
                         <input type="text" value={name} onChange={e => setName(e.target.value)} id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Tulis disini" />
