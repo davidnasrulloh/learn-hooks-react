@@ -1,5 +1,5 @@
 import React, { useDeferredValue, useEffect, useMemo, useState } from "react";
-import Header from "../../components/Header";
+import Header from "../../../components/Header";
 
 // kalau sudah berhenti baru di render
 const List = ({ input }) => {

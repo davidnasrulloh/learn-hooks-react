@@ -1,5 +1,5 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-import Header from "../../components/Header";
+import Header from "../../../components/Header";
 
 // sudah dijalankan sebelum di render
 const UseLayoutEffect = () => {

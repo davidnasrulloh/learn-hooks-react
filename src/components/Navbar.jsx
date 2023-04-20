@@ -32,8 +32,8 @@ const Navbar = () => {
                     <div className="font-bold mb-4">Optional Hooks</div>
                     <div className="flex flex-col gap-2">
                         <Link to="/use-layouteffect" className="hover:text-blue-400">UseLayoutEffect</Link>
-                        <Link>UseDebugValue</Link>
-                        <Link>UseImperativeHandle</Link>
+                        <Link to="/use-debugvalue" className="hover:text-blue-400">UseDebugValue</Link>
+                        <Link to="/use-imperativehandle" className="hover:text-blue-400">UseImperativeHandle</Link>
                         <Link>UseId</Link>
                     </div>
                 </div>

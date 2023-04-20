@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import Header from "../../components/Header";
+import Header from "../../../components/Header";
 
 function slowFunction(num) {
     console.log("calling slow function");

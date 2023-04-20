@@ -2,7 +2,7 @@ import React from "react";
 import FunctionContextComponent from "./FunctionContextComponent";
 import ClassContextComponent from "./ClassContextComponent";
 import { ThemeProvider } from "./ThemeContext";
-import Header from "../../../components/Header";
+import Header from "../../../../components/Header";
 
 const UseContextLearning = () => {
     return (
