@@ -37,6 +37,18 @@ const Navbar = () => {
                         <Link to="/use-id" className="hover:text-blue-400">UseId</Link>
                     </div>
                 </div>
+                <div className="font-medium text-start">
+                    <div className="font-bold mb-4">Custom Hooks</div>
+                    <div className="flex flex-col gap-2">
+                        <Link to="/use-HTCCustomHooks" className="hover:text-blue-400">How to Create Custom Hooks</Link>
+                        <Link >Custom Hooks #1-5 : -</Link>
+                        <Link >Custom Hooks #6-10 : -</Link>
+                        <Link >Custom Hooks #11-15 : -</Link>
+                        <Link >Custom Hooks #16-20 : -</Link>
+                        <Link >Custom Hooks #21-25 : -</Link>
+                        <Link >Custom Hooks #26-30 : -</Link>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -35,7 +35,7 @@ const UseMemoLearnings = () => {
                     </div>
                 </form>
                 <button onClick={() => setDark(prevDark => !prevDark)} className="py-2 px-12 bg-green-700 text-white hover:bg-green-600 transition">Change Theme</button>
-                <div className="my-4 py-4 text-white text-3xl" style={themeStyle}>{number}</div>
+                <div className="my-4 py-4 text-white text-3xl" style={themeStyle}>{doubleNumber}</div>
             </div>
         </>
     );

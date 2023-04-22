@@ -16,6 +16,7 @@ import UseLayoutEffect from "../pages/hooksdasar/OptionalHooks/UseLayoutEffect";
 import UseDebugValue from "../pages/hooksdasar/OptionalHooks/usedebugvalue/UseDebugValue";
 import UseImperativeHandle from "../pages/hooksdasar/OptionalHooks/useimperativehandle/UseImperativeHandle";
 import UseId from "../pages/hooksdasar/OptionalHooks/UseId";
+import HTCCustomHooks from "../pages/hooksdasar/CustomHooks/HTCCustomHooks";
 
 
 
@@ -40,6 +41,8 @@ const SetupRouters = () => {
             <Route path="/use-debugvalue" element={<UseDebugValue />} />
             <Route path="/use-imperativehandle" element={<UseImperativeHandle />} />
             <Route path="/use-id" element={<UseId />} />
+
+            <Route path="/use-HTCCustomHooks" element={<HTCCustomHooks />} />
         </Routes>
     );
 }
