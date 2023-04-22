@@ -34,7 +34,7 @@ const Navbar = () => {
                         <Link to="/use-layouteffect" className="hover:text-blue-400">UseLayoutEffect</Link>
                         <Link to="/use-debugvalue" className="hover:text-blue-400">UseDebugValue</Link>
                         <Link to="/use-imperativehandle" className="hover:text-blue-400">UseImperativeHandle</Link>
-                        <Link>UseId</Link>
+                        <Link to="/use-id" className="hover:text-blue-400">UseId</Link>
                     </div>
                 </div>
             </div>

@@ -15,6 +15,7 @@ import UseCallBackLearning from "../pages/hooksdasar/LesserUsedHooks/usecallback
 import UseLayoutEffect from "../pages/hooksdasar/OptionalHooks/UseLayoutEffect";
 import UseDebugValue from "../pages/hooksdasar/OptionalHooks/usedebugvalue/UseDebugValue";
 import UseImperativeHandle from "../pages/hooksdasar/OptionalHooks/useimperativehandle/UseImperativeHandle";
+import UseId from "../pages/hooksdasar/OptionalHooks/UseId";
 
 
 
@@ -38,6 +39,7 @@ const SetupRouters = () => {
             <Route path="/use-layouteffect" element={<UseLayoutEffect />} />
             <Route path="/use-debugvalue" element={<UseDebugValue />} />
             <Route path="/use-imperativehandle" element={<UseImperativeHandle />} />
+            <Route path="/use-id" element={<UseId />} />
         </Routes>
     );
 }
