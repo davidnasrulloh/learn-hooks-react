@@ -17,6 +17,7 @@ import UseDebugValue from "../pages/hooksdasar/OptionalHooks/usedebugvalue/UseDe
 import UseImperativeHandle from "../pages/hooksdasar/OptionalHooks/useimperativehandle/UseImperativeHandle";
 import UseId from "../pages/hooksdasar/OptionalHooks/UseId";
 import HTCCustomHooks from "../pages/hooksdasar/CustomHooks/HTCCustomHooks";
+import Hooks1_5 from "../pages/hooksdasar/CustomHooks/hooks1-5";
 
 
 
@@ -43,6 +44,7 @@ const SetupRouters = () => {
             <Route path="/use-id" element={<UseId />} />
 
             <Route path="/use-HTCCustomHooks" element={<HTCCustomHooks />} />
+            <Route path="/use-custom1-5" element={<Hooks1_5 />} />
         </Routes>
     );
 }
