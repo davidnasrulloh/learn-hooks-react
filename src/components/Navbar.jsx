@@ -42,7 +42,7 @@ const Navbar = () => {
                     <div className="flex flex-col gap-2">
                         <Link to="/use-HTCCustomHooks" className="hover:text-blue-400 border-b-2 pb-3">How to Create Custom Hooks</Link>
                         <Link to="/use-custom1-5" className="hover:text-blue-400 border-b-2 pb-3" >Custom Hooks #1-5 : <br /> useToggle, useTimeout, useDebounce, useUpdateEffect, useArray</Link>
-                        <Link >Custom Hooks #6-10 : -</Link>
+                        <Link to="/use-custom6-10" className="hover:text-blue-400 border-b-2 pb-3" >Custom Hooks #6-10 :  <br /> usePrevious, useStateWithHistory, useStorage, useAsync, useFetch</Link>
                         <Link >Custom Hooks #11-15 : -</Link>
                         <Link >Custom Hooks #16-20 : -</Link>
                         <Link >Custom Hooks #21-25 : -</Link>
