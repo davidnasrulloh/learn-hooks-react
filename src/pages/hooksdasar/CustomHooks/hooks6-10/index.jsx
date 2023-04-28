@@ -2,6 +2,7 @@ import React from "react";
 import Header from '../../../../components/Header';
 import Title from "../../../../components/Tittle";
 import PreviousComponent from "./1-usePrevious/PreviousComponent";
+import StateWithHistoryComponent from "./2-useStateWithHistory/StateWithHistoryComponent";
 
 
 
@@ -12,6 +13,10 @@ const Hooks6_10 = () => {
             <div>
                 <Title title={"usePrevious"} />
                 <PreviousComponent />
+            </div>
+            <div>
+                <Title title={"useStateWithHistory"} />
+                <StateWithHistoryComponent />
             </div>
         </>
     )
