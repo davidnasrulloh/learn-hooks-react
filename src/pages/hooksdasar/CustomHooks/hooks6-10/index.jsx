@@ -1,11 +1,10 @@
 import React from "react";
 import Header from '../../../../components/Header';
 import Title from "../../../../components/Tittle";
-import PreviousComponent from "./1-usePrevious/PreviousComponent";
-import StateWithHistoryComponent from "./2-useStateWithHistory/StateWithHistoryComponent";
-import StorageComponent from "./3-useStorage/StorageComponent";
-
-
+import PreviousComponent from "./6-usePrevious/PreviousComponent";
+import StateWithHistoryComponent from "./7-useStateWithHistory/StateWithHistoryComponent";
+import StorageComponent from "./8-useStorage/StorageComponent";
+import AsyncComponent from "./9-useAsync/AsyncComponent";
 
 const Hooks6_10 = () => {
     return (
@@ -22,6 +21,10 @@ const Hooks6_10 = () => {
             <div>
                 <Title title={"useStorage"} />
                 <StorageComponent />
+            </div>
+            <div>
+                <Title title={"useAsync"} />
+                <AsyncComponent />
             </div>
         </>
     )
