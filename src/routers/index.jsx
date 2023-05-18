@@ -1,26 +1,26 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
-import UseReducerLearning from "../pages/hooksdasar/LesserUsedHooks/UseReducer";
-import UseTransitionLearning from "../pages/hooksdasar/LesserUsedHooks/UseTransition";
-import UseDefferedValueLearning from "../pages/hooksdasar/LesserUsedHooks/UseDefferedValue";
+import UseReducerLearning from "../pages/reacthooks/LesserUsedHooks/UseReducer";
+import UseTransitionLearning from "../pages/reacthooks/LesserUsedHooks/UseTransition";
+import UseDefferedValueLearning from "../pages/reacthooks/LesserUsedHooks/UseDefferedValue";
 
-import UseStateLearning from "../pages/hooksdasar/MustKnowHooks/UseState";
-import UseEffectLearning from "../pages/hooksdasar/MustKnowHooks/UseEffect";
-import UseContextLearning from "../pages/hooksdasar/MustKnowHooks/usecontext/UseContext";
-import UseRefLearning from "../pages/hooksdasar/LesserUsedHooks/UseRef";
-import UseMemoLearnings from "../pages/hooksdasar/LesserUsedHooks/UseMemo";
-import UseCallBackLearning from "../pages/hooksdasar/LesserUsedHooks/usecallback/UseCallback";
+import UseStateLearning from "../pages/reacthooks/MustKnowHooks/UseState";
+import UseEffectLearning from "../pages/reacthooks/MustKnowHooks/UseEffect";
+import UseContextLearning from "../pages/reacthooks/MustKnowHooks/usecontext/UseContext";
+import UseRefLearning from "../pages/reacthooks/LesserUsedHooks/UseRef";
+import UseMemoLearnings from "../pages/reacthooks/LesserUsedHooks/UseMemo";
+import UseCallBackLearning from "../pages/reacthooks/LesserUsedHooks/usecallback/UseCallback";
 
-import UseLayoutEffect from "../pages/hooksdasar/OptionalHooks/UseLayoutEffect";
-import UseDebugValue from "../pages/hooksdasar/OptionalHooks/usedebugvalue/UseDebugValue";
-import UseImperativeHandle from "../pages/hooksdasar/OptionalHooks/useimperativehandle/UseImperativeHandle";
-import UseId from "../pages/hooksdasar/OptionalHooks/UseId";
-import HTCCustomHooks from "../pages/hooksdasar/CustomHooks/HTCCustomHooks";
-import Hooks1_5 from "../pages/hooksdasar/CustomHooks/hooks1-5";
-import Hooks6_10 from "../pages/hooksdasar/CustomHooks/hooks6-10";
-import Hooks11_15 from "../pages/hooksdasar/CustomHooks/hooks11-15";
-import Hooks16_20 from "../pages/hooksdasar/CustomHooks/hooks16-20";
+import UseLayoutEffect from "../pages/reacthooks/OptionalHooks/UseLayoutEffect";
+import UseDebugValue from "../pages/reacthooks/OptionalHooks/usedebugvalue/UseDebugValue";
+import UseImperativeHandle from "../pages/reacthooks/OptionalHooks/useimperativehandle/UseImperativeHandle";
+import UseId from "../pages/reacthooks/OptionalHooks/UseId";
+import HTCCustomHooks from "../pages/reacthooks/CustomHooks/HTCCustomHooks";
+import Hooks1_5 from "../pages/reacthooks/CustomHooks/hooks1-5";
+import Hooks6_10 from "../pages/reacthooks/CustomHooks/hooks6-10";
+import Hooks11_15 from "../pages/reacthooks/CustomHooks/hooks11-15";
+import Hooks16_20 from "../pages/reacthooks/CustomHooks/hooks16-20";
 
 
 
