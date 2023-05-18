@@ -14,7 +14,9 @@ export default function EffectOnceComponent() {
     return (
         <>
             <div>{count}</div>
-            <button onClick={() => setCount(c => c + 1)}>Increment</button>
+            <button
+                className="py-2 px-12 bg-green-700 mx-4 text-white hover:bg-green-600 transition my-2"
+                onClick={() => setCount(c => c + 1)}>Increment</button>
         </>
     )
 }
