@@ -45,7 +45,7 @@ const Navbar = () => {
                         <Link to="/use-custom6-10" className="hover:text-blue-400 border-b-2 pb-3" >Custom Hooks #6-10 :  <br /> usePrevious, useStateWithHistory, useStorage, useAsync, useFetch</Link>
                         <Link to="/use-custom11-15" className="hover:text-blue-400 border-b-2 pb-3" >Custom Hooks #11-15 : useScript, useDeepCompareEffect, useEventListener, useOnScreen, useWindowSize</Link>
                         <Link to="/use-custom16-20" className="hover:text-blue-400 border-b-2 pb-3" >Custom Hooks #16-20 : useMediaQuery, useGeolocation, useStateWithValidation, useSize, useEffectOnce</Link>
-                        <Link >Custom Hooks #21-25 : -</Link>
+                        <Link to="/use-custom21-25" className="hover:text-blue-400 border-b-2 pb-3" >Custom Hooks #21-25 : useClickOutside, useDarkMode, useCopyToClipboard, useCookie, useTranslation</Link>
                         <Link >Custom Hooks #26-30 : -</Link>
                     </div>
                 </div>
