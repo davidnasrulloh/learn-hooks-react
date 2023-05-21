@@ -2,6 +2,7 @@ import Header from "../../../../components/Header"
 import Title from "../../../../components/Tittle"
 import ClickOutsideComponent from "./21-useClickOutside/ClickOutsideComponent"
 import DarkModeComponent from "./22-useDarkMode/DarkModeComponent"
+import CopyToClipBoardComponent from "./23-useCopyToClipboard/CopyToClipboardComponent"
 import CoookieComponent from "./24-useCookie/CookieComponent"
 import TranslationComponent from "./25-useTranslation/TranslationComponent"
 
@@ -16,6 +17,10 @@ const Hooks21_25 = () => {
             <div>
                 <Title title={"useDarkMode"} />
                 <DarkModeComponent />
+            </div>
+            <div>
+                <Title title={"useCopyToClipboard"} />
+                <CopyToClipBoardComponent />
             </div>
             <div>
                 <Title title={"useCookie"} />
