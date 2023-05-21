@@ -22,6 +22,7 @@ import Hooks6_10 from "../pages/reacthooks/CustomHooks/hooks6-10";
 import Hooks11_15 from "../pages/reacthooks/CustomHooks/hooks11-15";
 import Hooks16_20 from "../pages/reacthooks/CustomHooks/hooks16-20";
 import Hooks21_25 from "../pages/reacthooks/CustomHooks/hooks21-25";
+import Hooks26_30 from "../pages/reacthooks/CustomHooks/hooks26-30";
 
 
 
@@ -53,6 +54,7 @@ const SetupRouters = () => {
             <Route path="/use-custom11-15" element={<Hooks11_15 />} />
             <Route path="/use-custom16-20" element={<Hooks16_20 />} />
             <Route path="/use-custom21-25" element={<Hooks21_25 />} />
+            <Route path="/use-custom26-30" element={<Hooks26_30 />} />
         </Routes>
     );
 }

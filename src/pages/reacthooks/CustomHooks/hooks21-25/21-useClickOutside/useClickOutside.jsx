@@ -1,17 +1,12 @@
-import React from "react";
+import useEventListener from './../../hooks11-15/13-useEventListener/useEventListener';
 
-const useClickOutside = (ref, callback) => {
-    const handleClick = e => {
-        if (ref.current && !ref.current.contains(e.target)) {
-            callback();
-        }
-    };
-    React.useEffect(() => {
-        document.addEventListener('click', handleClick);
-        return () => {
-            document.removeEventListener('click', handleClick);
-        };
-    });
-};
-
-export default useClickOutside
+export default function useClickOutside(ref, cb) {
+    useEventListener(
+        "click",
+        e => {
+            if (ref.current == null || ref.current.contains(e.target)) return
+            cb(e)
+        },
+        document
+    )
+}
